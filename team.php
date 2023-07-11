@@ -2,7 +2,7 @@
 	
 	define("TITLE", "Team | Franklin's Fine Dining");
 	
-	include('file:///Users/wenshengli/Sites/CodeDynamicWebsites/26_Final/Student/includes/header.php');
+	include('./includes/header.php');
 	
 ?>
 	<div id="team-members" class="cf">
@@ -12,7 +12,23 @@
 		</p>
 		
 		<hr>
+		
+		<?php
+			foreach ($teamMembers as $member) {
+		?>
+			<div class="member">
+				<img src="./img/<?php echo $member[img]; ?>.png" alt="<?php echo $member[name]; ?>">
+				<h2><?php echo $member[name];?></h2>
+				<p><?php echo $member[bio]; ?></p>
+			</div><!-- Member -->
+		
+		<?php 
+			}
+		?>
+		
+		
+	</div><!-- Team Members -->
 
 <?php
-	include('file:///Users/wenshengli/Sites/CodeDynamicWebsites/26_Final/Student/includes/footer.php');
+	include('./includes/footer.php');
 ?>

@@ -1,0 +1,2 @@
+<h4>Code Dynamic Websites with PHP</h4>
+<h5>Copyright &copy;<?php echo date('Y');?> <a href="http://bradhussey.ca/" target="_blank">Vincent LI</a> @ <a href="vincent-li-007.github.io/html-porfolio/" target="_blank">iTech</a></h5>

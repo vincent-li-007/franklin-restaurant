@@ -23,7 +23,7 @@
 						<em>Sunday - Monday</em><br>
 						Closed<br><br>
 						
-						<?php include('file:///Users/wenshengli/Sites/CodeDynamicWebsites/26_Final/Student/includes/store-hours.php'); ?>
+						<?php include('includes/store-hours.php'); ?>
 						
 					</div><!-- column -->
 				</div><!-- footer -->
@@ -33,7 +33,7 @@
 		</div><!-- wrapper -->
 		
 		<div class="copyright-info">
-			<?php include('file:///Users/wenshengli/Sites/CodeDynamicWebsites/assets/includes/copyright.php'); ?>
+			<?php include('assets/includes/copyright.php'); ?>
 		</div><!-- copyright-info -->
 		
 	</body>
